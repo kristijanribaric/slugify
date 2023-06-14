@@ -20,7 +20,7 @@ export const Form = () => {
         type="text"
         value={slug}
         onChange={(e) => setSlug(slugify(e.target.value))}
-        className="w-5/6 block mx-auto rounded-lg px-4 h-10"
+        className="w-full md:w-5/6 block mx-auto rounded-lg px-4 h-10"
         placeholder="Enter string to slugify here..."
       />
 
